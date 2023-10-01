@@ -1,0 +1,109 @@
+.navbar .nav-link {
+    font-weight: bold;
+}
+
+/* Styling for the card background */
+.card-bg {
+    position: relative;
+}
+
+.mod-f4-bg {
+    position: relative;
+}
+
+.mod-conan-aos-bg {
+    position: relative;
+}
+
+.card-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* Replace the URL with your image path */
+    background-image: url('../jpeg/aktuelles-bg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Filter to darken the background image */
+    filter: brightness(50%);
+    z-index: 1;
+}
+
+.mod-f4-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* Replace the URL with your image path */
+    background-image: url('../jpeg/f4-bg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Filter to darken the background image */
+    filter: brightness(50%);
+    z-index: 1;
+}
+
+.mod-conan-aos-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* Replace the URL with your image path */
+    background-image: url('../jpeg/conan-bg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Filter to darken the background image */
+    filter: brightness(50%);
+    z-index: 1;
+}
+
+/* Ensure content is visible on top of the darkened background */
+.card-content {
+    position: relative;
+    z-index: 2;
+    filter: brightness(100%);
+}
+
+.card {
+    max-width: 600px;
+    margin: auto;
+}
+
+.card-header {
+    width: 286px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.page-content {
+    width: 95%;
+}
+
+.row {
+    display: flex;
+}
+
+.playlist {
+    flex: 1 1 auto;
+    min-width: 30%;
+}
+
+
+.navbar-brand {
+    position: absolute;
+    /* Absolute positioning for the logo */
+    left: 50%;
+    /* Centering horizontally */
+    transform: translateX(-50%);
+    /* Adjust for the width of the logo element */
+}
