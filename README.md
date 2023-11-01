@@ -1,6 +1,6 @@
 # WanderersPage
 
-Source Code für https://wandererde.github.com
+Source Code für https://wandererde.github.io
 Offizielle Website von Wanderer!DE. 
 
 Dokumentation:
