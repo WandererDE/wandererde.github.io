@@ -15,23 +15,6 @@
     position: relative;
 }
 
-.card-bg::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    /* Replace the URL with your image path */
-    background-image: url('../jpeg/aktuelles-bg.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    /* Filter to darken the background image */
-    filter: brightness(50%);
-    z-index: 1;
-}
-
 .mod-f4-bg::before {
     content: "";
     position: absolute;
@@ -66,6 +49,23 @@
     z-index: 1;
 }
 
+.card-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* Replace the URL with your image path */
+    background-image: url('../jpeg/aktuelles-bg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Filter to darken the background image */
+    filter: brightness(50%);
+    z-index: 1;
+}
+
 /* Ensure content is visible on top of the darkened background */
 .card-content {
     position: relative;
@@ -79,7 +79,8 @@
 }
 
 .card-header {
-    width: 286px;
+    max-width: 600px;
+/*    width: 286px; */
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
