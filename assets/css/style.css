@@ -80,8 +80,7 @@
 }
 
 .card-header {
-    /* width: 286px; */
-    max-width: 480px;
+    width: 286px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
