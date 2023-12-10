@@ -81,8 +81,9 @@
 }
 
 .card-header {
-    max-width: 286px;
+    width: 286px;
     font-size: 12px;
+    font-color: black;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
