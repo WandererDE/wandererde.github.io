@@ -80,7 +80,7 @@
 }
 
 .card-header {
-    /* width: 286px; */
+    width: 286px;
     font-size: 10px;
     white-space: nowrap;
     overflow: hidden;
