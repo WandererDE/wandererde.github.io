@@ -76,8 +76,8 @@
 
 .card {
     max-width: 600px;
-    /* margin: auto; */
-    margin: 1px;
+    /* margin: auto; 
+    margin: 1px; */
 }
 
 .card-header {
