@@ -81,6 +81,7 @@
 
 .card-header {
     /* width: 286px; */
+    font-size: 10;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
