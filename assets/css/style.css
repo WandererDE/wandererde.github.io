@@ -67,6 +67,25 @@
     z-index: 1;
 }
 
+.tech-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* Replace the URL with your image path */
+    /* background-image: url('../jpeg/aktuelles-bg.jpeg'); */
+    background-image: url('../jpeg/bg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Filter to darken the background image */
+    filter: brightness(100%);
+    z-index: 1;
+}
+
+
 /* Ensure content is visible on top of the darkened background */
 .card-content {
     position: relative;
