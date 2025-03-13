@@ -62,7 +62,7 @@
     background-repeat: no-repeat;
     background-position: center;
     /* Filter to darken the background image */
-    filter: brightness(100%);
+    filter: brightness(50%);
     z-index: 1;
 }
 
