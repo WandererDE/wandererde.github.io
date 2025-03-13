@@ -57,7 +57,7 @@
     bottom: 0;
     left: 0;
     /* Replace the URL with your image path */
-    background-image: url('../jpeg/tech-bg.jpeg');
+    background-image: url('../png/tech-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
